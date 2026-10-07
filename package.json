@@ -1,0 +1,15 @@
+{
+  "name": "mylib",
+  "version": "1.0.0",
+  "description": "Basic arithmetic library with Mocha + Chai unit tests",
+  "main": "mylib.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha tests"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^10.8.2"
+  }
+}
